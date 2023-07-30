@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 130px;
+    margin-left: 1rem;
+}
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#nav-icon i{
+    margin: 1rem;
+}
+#nav-icon{
+    margin-right: 1rem;
+}
+#body-main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    width: 50vw;
+    height: 80vh;
+}
+#main div{
+    /* border: 2px solid black; */
+    height: 80vh;
+    width: 40vw;
+}
+#div1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+#div1 h1{
+    font-weight: bold;
+}
+#email_btn{
+    background-color: #FCD535;
+}
+#div1 button{
+    height: 50px;
+    width: 350px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    margin: 1rem 0;
+    /* background-color:azure; */
+}
+#div1 button i{
+ float: left;
+ margin-left: 10px;
+}
+#div2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+#div2 img{
+    height: 215px;
+    margin-bottom: 50px;
+}
+#or-div{
+    width: 100vw;
+    margin: -350px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#or-div span hr{
+    margin: 5px;
+    width: 6vw;
+}
+#main div p{
+    font-size: 1rem;
+    color: rgb(122 122 122);
+}
+#main div p span{
+    color: #FCD535;
+}
+#p_title{
+    
+}
